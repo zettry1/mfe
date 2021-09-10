@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import MarketingApp from "./component/MarketingApp";
 import Header from "./component/Header";
-import { StylesProvider } from "@material-ui/styles";
+import { StylesProvider, createGenerateClassName } from "@material-ui/styles";
 
 const generateClassName = createGenerateClassName({
   productionPrefix: "cont",
