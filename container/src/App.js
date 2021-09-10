@@ -3,7 +3,7 @@ import MarketingApp from "./component/MarketingApp";
 function App() {
   return (
     <div>
-      <h1>App container dom name</h1>
+      <h1>My e-commerce</h1>
       <MarketingApp />
     </div>
   );
